@@ -37,5 +37,7 @@ box-shadow:3px 4px 2px 4px #f55566, -4px -3px 2px 5px #a34577 inset;
 ### X轴偏移量和Y轴偏移量值可以设置为负数
 3. border-image 为边框应用背景图片
 语法：
+`
 border-image:url(http://img.mukewang.com/52e22a1c0001406e03040221.jpg) 15px repeat;/* 路径 切割图片的宽度 重复或平铺或拉伸 */
+`
 ![图片我是](./img/borderimage.png)
