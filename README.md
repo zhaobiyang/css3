@@ -68,7 +68,7 @@ linear-gradient（to bottom, #fff,#999);
 
 第一个参数：指定渐变方向，可以用“角度”的关键词或“英文”来表示：
 
-![tupian](.img/lineargradient2.png)
+![tupian](./img/lineargradient2.png)
 
 第一个参数省略时，默认为180deg，等同于“to bottom”.
 第二个参数和第三个参数，表示颜色的起始点和结束点，可以有多个颜色值。
