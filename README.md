@@ -41,3 +41,34 @@ box-shadow:3px 4px 2px 4px #f55566, -4px -3px 2px 5px #a34577 inset;
 border-image:url(http://img.mukewang.com/52e22a1c0001406e03040221.jpg) 15px repeat;/* 路径 切割图片的宽度 重复或平铺或拉伸 */
 `
 ![图片我是](./img/borderimage.png)
+## 颜色相关
+1. RGB是一种色彩标准，是由红(R)、绿(G)、蓝(B)的变化以及相互叠加来得到各式各样的颜色。RGBA是在RGB的基础上增加了控制alpha透明度的参数。
+
+语法：
+
+`
+color:rgba(R,G,B,A)
+`
+
+R G B三个参数，正整数值的取值范围：0 ———— 255 ，百分数值的取值范围：0.0% ———— 100.0% ，但并非所有的浏览器都支持百分数的值。
+
+2. 渐变颜色
+
+CSS3 Gradient分为线性渐变（linear）和径向渐变（radial）。
+
+线性渐变：
+
+`
+linear-gradient（to bottom, #fff,#999);
+`
+
+![tupian](./img/lineargradient1.png)
+
+参数：
+
+第一个参数：指定渐变方向，可以用“角度”的关键词或“英文”来表示：
+
+![tupian](.img/lineargradient2.png)
+
+第一个参数省略时，默认为180deg，等同于“to bottom”.
+第二个参数和第三个参数，表示颜色的起始点和结束点，可以有多个颜色值。
